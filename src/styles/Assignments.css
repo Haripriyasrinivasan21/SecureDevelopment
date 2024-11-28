@@ -1,0 +1,27 @@
+.assignments {
+    padding: 2rem;
+  }
+  
+  .assignments h2 {
+    color: #333;
+  }
+  
+  .assignments table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .assignments table th,
+  .assignments table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  .assignments table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .assignments table tr:hover {
+    background-color: #f1f1f1;
+  }  

@@ -1,0 +1,62 @@
+{
+  "patients": [
+    { "id": 1, "name": "John Doe", "address": "123 Main St", "medicalRecords": "Asthma" },
+    { "id": 2, "name": "Jane Smith", "address": "456 Oak Ave", "medicalRecords": "Diabetes" },
+    { "id": 3, "name": "Mike Johnson", "address": "789 Pine Blvd", "medicalRecords": "Hypertension" },
+    { "id": 4, "name": "Emily Davis", "address": "321 Elm St", "medicalRecords": "Allergies" },
+    { "id": 5, "name": "Chris Lee", "address": "654 Maple Ln", "medicalRecords": "Migraine" },
+    { "id": 6, "name": "Anna White", "address": "987 Cedar Ct", "medicalRecords": "Arthritis" },
+    { "id": 7, "name": "Peter Brown", "address": "234 Oak Ridge", "medicalRecords": "Obesity" },
+    { "id": 8, "name": "Sophia Miller", "address": "567 Birch Dr", "medicalRecords": "Back Pain" },
+    { "id": 9, "name": "Liam Wilson", "address": "890 Spruce St", "medicalRecords": "Asthma" },
+    { "id": 10, "name": "Olivia Taylor", "address": "112 Cherry Ave", "medicalRecords": "High Cholesterol" }
+  ],
+  "caregivers": [
+    { "id": 1, "name": "Alice Johnson", "isAvailable": true },
+    { "id": 2, "name": "Bob Brown", "isAvailable": false },
+    { "id": 3, "name": "Karen Clark", "isAvailable": true },
+    { "id": 4, "name": "Daniel Smith", "isAvailable": false },
+    { "id": 5, "name": "Emma Harris", "isAvailable": true },
+    { "id": 6, "name": "Oliver Lewis", "isAvailable": true },
+    { "id": 7, "name": "Sophia Moore", "isAvailable": false },
+    { "id": 8, "name": "Mason Thomas", "isAvailable": true },
+    { "id": 9, "name": "Lucas Walker", "isAvailable": true },
+    { "id": 10, "name": "Amelia Hall", "isAvailable": false }
+  ],
+  "assignments": [
+    { "id": 1, "patientId": 1, "caregiverId": 1 },
+    { "id": 2, "patientId": 2, "caregiverId": 3 },
+    { "id": 3, "patientId": 3, "caregiverId": 6 },
+    { "id": 4, "patientId": 4, "caregiverId": 2 },
+    { "id": 5, "patientId": 5, "caregiverId": 5 },
+    { "id": 6, "patientId": 6, "caregiverId": 8 },
+    { "id": 7, "patientId": 7, "caregiverId": 9 },
+    { "id": 8, "patientId": 8, "caregiverId": 4 },
+    { "id": 9, "patientId": 9, "caregiverId": 7 },
+    { "id": 10, "patientId": 10, "caregiverId": 10 }
+  ],
+  "appointments": [
+    { "id": 1, "patientId": 1, "caregiverId": 1, "date": "2024-11-25", "time": "10:00 AM" },
+    { "id": 2, "patientId": 2, "caregiverId": 3, "date": "2024-11-26", "time": "2:00 PM" },
+    { "id": 3, "patientId": 3, "caregiverId": 6, "date": "2024-11-27", "time": "9:00 AM" },
+    { "id": 4, "patientId": 4, "caregiverId": 2, "date": "2024-11-28", "time": "11:00 AM" },
+    { "id": 5, "patientId": 5, "caregiverId": 5, "date": "2024-11-29", "time": "3:00 PM" },
+    { "id": 6, "patientId": 6, "caregiverId": 8, "date": "2024-11-30", "time": "1:00 PM" },
+    { "id": 7, "patientId": 7, "caregiverId": 9, "date": "2024-12-01", "time": "4:00 PM" },
+    { "id": 8, "patientId": 8, "caregiverId": 4, "date": "2024-12-02", "time": "12:00 PM" },
+    { "id": 9, "patientId": 9, "caregiverId": 7, "date": "2024-12-03", "time": "8:00 AM" },
+    { "id": 10, "patientId": 10, "caregiverId": 10, "date": "2024-12-04", "time": "5:00 PM" }
+  ],
+  "users": [
+    { "id": 1, "username": "admin", "password": "password123" },
+    { "id": 2, "username": "user1", "password": "securepass" },
+    { "id": 3, "username": "user2", "password": "mypassword" },
+    { "id": 4, "username": "user3", "password": "admin123" },
+    { "id": 5, "username": "user4", "password": "123456" },
+    { "id": 6, "username": "user5", "password": "password" },
+    { "id": 7, "username": "user6", "password": "qwerty" },
+    { "id": 8, "username": "user7", "password": "letmein" },
+    { "id": 9, "username": "user8", "password": "welcome" },
+    { "id": 10, "username": "user9", "password": "password1" }
+  ]
+}

@@ -1,0 +1,27 @@
+.appointments {
+    padding: 2rem;
+  }
+  
+  .appointments h2 {
+    color: #333;
+  }
+  
+  .appointments table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .appointments table th,
+  .appointments table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  .appointments table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .appointments table tr:hover {
+    background-color: #f1f1f1;
+  }  
